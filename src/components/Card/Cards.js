@@ -3,8 +3,7 @@ import './Card.css';
 
 const Cards = (props) => {
   const {avatar,email,id,first_name,last_name} = props.page;
-console.log({props});
-console.log(first_name);
+
    return (
       <div className='col-md-4 text-center custom'>
       <div>

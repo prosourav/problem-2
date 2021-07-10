@@ -12,12 +12,6 @@ const Home = () => {
       .then(res=>res.json())
       .then(data=>setpageTwo(data.data));
    },[]);
-  
-
-   
-   console.log({pageOne});
-   console.log({pageTwo});
-   console.log(page);
    
 
    return (
